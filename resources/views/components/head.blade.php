@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 
-<title>Gurlan tumani tarixi</title>
+<title>Gurlan</title>
 
 <meta name="description" content="Description">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,3 +22,11 @@
       crossorigin>
 <link rel="preload" href="{{ asset("assets/fonts/material-icons/material-icons-outlined.woff2") }}" as="font"
       type="font/woff2" crossorigin>
+
+<script src="{{ asset("assets/libs/jquery/jquery.min.js") }}" defer></script>
+<script src="{{ asset("assets/libs/lozad/lozad.min.js") }}" defer></script>
+<script src="{{ asset("assets/libs/device/device.js") }}" defer></script>
+<script src="{{ asset("assets/libs/spincrement/jquery.spincrement.min.js") }}" defer></script>
+<script src="{{ asset("assets/libs/pristine/pristine.min.js") }}" defer></script>
+<script src="{{ asset("assets/js/custom.js") }}" defer></script>
+<script src="{{ asset("asset/js/forms.js") }}" defer></script>

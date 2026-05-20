@@ -56,7 +56,7 @@
         errorTextClass: 'text-help'
     };
 
-    var PRISTINE_ERROR = 'pristine-error';
+    var PRISTINE_ERROR = 'pristine-errors';
     var SELECTOR = "input:not([type^=hidden]):not([type^=submit]), select, textarea";
     var ALLOWED_ATTRIBUTES = ["required", "min", "max", 'minlength', 'maxlength', 'pattern'];
     var EMAIL_REGEX = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -170,7 +170,7 @@
         /***
          * Checks whether the form/input elements are valid
          * @param input => input element(s) or a jquery selector, null for full form validation
-         * @param silent => do not show error messages, just return true/false
+         * @param silent => do not show errors messages, just return true/false
          * @returns {boolean} return true when valid false otherwise
          */
         self.validate = function (input, silent) {
@@ -223,7 +223,7 @@
         };
 
         /***
-         * Validates a single field, all validator functions are called and error messages are generated
+         * Validates a single field, all validator functions are called and errors messages are generated
          * when a validator fails
          * @param field
          * @returns {boolean}
@@ -282,8 +282,8 @@
         };
 
         /***
-         * An utility function that returns a 2-element array, first one is the element where error/success class is
-         * applied. 2nd one is the element where error message is displayed. 2nd element is created if doesn't exist and cached.
+         * An utility function that returns a 2-element array, first one is the element where errors/success class is
+         * applied. 2nd one is the element where errors message is displayed. 2nd element is created if doesn't exist and cached.
          * @param field
          * @returns {*}
          * @private
@@ -328,7 +328,7 @@
         }
 
         /***
-         * Adds error to a specific field
+         * Adds errors to a specific field
          * @param input
          * @param error
          */
