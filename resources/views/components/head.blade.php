@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 
-<title>Gurlan</title>
+<title>Godonim.uz</title>
 
 <meta name="description" content="Description">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">

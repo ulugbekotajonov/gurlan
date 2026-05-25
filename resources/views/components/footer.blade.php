@@ -7,7 +7,7 @@
                         <div class="widget-brand-info-main">
                             <a href="{{ route("home") }}" class="logo" title="PathSoft">
                                 <img data-src="assets/img/logo-white.svg" class="lazy" width="133" height="36"
-                                     src="{{ asset("assets/img/logo-white.svg") }}" alt="PathSoft" data-loaded="true"
+                                     src="{{ asset("assets/img/logo-white.png") }}" alt="PathSoft" data-loaded="true"
                                      style="opacity: 1;">
                             </a>
                         </div>

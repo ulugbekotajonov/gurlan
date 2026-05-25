@@ -4,7 +4,7 @@
             <div class="row flex-nowrap align-items-center justify-content-between">
                 <div class="col-auto header-fixed-col logo-wrapper">
                     <a href="{{ route("home") }}" class="logo" title="PathSoft">
-                        <img src="{{ asset("assets/img/logo.svg") }}" width="115" height="36" alt="PathSoft">
+                        <img src="{{ asset("assets/img/logo.png") }}" width="115" height="36" alt="PathSoft">
                     </a>
                 </div>
                 <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
